@@ -87,7 +87,7 @@ class NodeOps {
     return true;
   }
 
-  String gen() {
+  String genStr() {
     String str = "";
     for(int i=0; i<(int)(Math.random()*10+1); i++) {
       char c = (char)(Math.floor(Math.random() * 26 + 97));
