@@ -49,8 +49,6 @@ class NodeOps {
     for(int i=0; i<30000; i++) {
       search(gen());
     }
-    
-    // delete("apple");
   }
 
   void insert(String s) {
@@ -71,48 +69,6 @@ class NodeOps {
       }
     }
   }
-
-  // void delete(String s) {
-  //     Node branch = root;
-  //
-  //     for(int i=0; i<s.length(); i++) {
-  //       char c = s.charAt(i);
-  //       int num = Character.getNumericValue(c)-10;
-  //
-  //       if(branch.node.get(num) != null) {
-  //         branch.node.set(num, new Node(null));
-  //         branch = branch.node.get(num);
-  //       }
-  //     }
-  //
-  //     // for(int i=0; i<s.length(); i++) {
-  //     //   char c = s.charAt(i);
-  //     //   int num = Character.getNumericValue(c)-10;
-  //     //   Node branch = root.node.get(num);
-  //     //   int k = 0;
-  //     //   for(int j=0; j<26; j++) {
-  //     //     if(branch.node.get(j) == null) {
-  //     //       k++;
-  //     //     }
-  //     //   }
-  //     //
-  //     //   c = s.charAt(i+1);
-  //     //   num = Character.getNumericValue(c)-10;
-  //     //   branch = branch.node.get(num);
-  //     //   int m = 0;
-  //     //   for(int l=0; l<26; l++) {
-  //     //     if(branch.node.get(l) == null) {
-  //     //       m++;
-  //     //     }
-  //     //   }
-  //     //
-  //     //   if(k == 25 && m == 25){
-  //     //     root = branch.node.get(num);
-  //     //   } else {
-  //     //
-  //     //   }
-  //     // }
-  // }
 
   boolean search(String s) {
     Node branch = root;
