@@ -32,7 +32,7 @@ class NodeOps {
     insert("homework");
 
     for(int i=0; i<30000; i++) {
-      insert(gen());
+      insert(genStr());
     }
 
     System.out.println(search("apple"));
@@ -47,7 +47,7 @@ class NodeOps {
     System.out.println(search("sugar"));
 
     for(int i=0; i<30000; i++) {
-      search(gen());
+      search(genStr());
     }
   }
 

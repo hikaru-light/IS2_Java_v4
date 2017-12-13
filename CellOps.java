@@ -29,7 +29,7 @@ class CellOps {
     insert("computer");
     insert("homework");
     for(int i=0; i<30000; i++) {
-      insert(gen());
+      insert(genStr());
     }
     System.out.println(search("apple"));
     System.out.println(search("api"));
@@ -42,7 +42,7 @@ class CellOps {
     System.out.println(search("salt"));
     System.out.println(search("sugar"));
     for(int i=0; i<30000; i++) {
-      search(gen());
+      search(genStr());
     }
   }
 
