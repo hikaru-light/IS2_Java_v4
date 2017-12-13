@@ -28,9 +28,7 @@ class CellOps {
     insert("door");
     insert("computer");
     insert("homework");
-    for(int i=0; i<30000; i++) {
-      insert(genStr());
-    }
+
     System.out.println(search("apple"));
     System.out.println(search("api"));
     System.out.println(search("blank"));
@@ -41,6 +39,13 @@ class CellOps {
     System.out.println(search("homework"));
     System.out.println(search("salt"));
     System.out.println(search("sugar"));
+   
+    System.out.println("");
+    
+    for(int i=0; i<30000; i++) {
+      insert(genStr());
+    }
+
     for(int i=0; i<30000; i++) {
       search(genStr());
     }
